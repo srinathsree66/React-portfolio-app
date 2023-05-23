@@ -7,8 +7,8 @@ import { navLinks } from './../../constants/NavLinks';
 const Navbar = () => {
     return (
         <div className='w-full sticky top-0 z-20 bg-bodyColor h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
-            <div>
-                <img src={logo} alt='' />
+            <div className='w-50 rounded-md'>
+                <img className='w-16' src={logo} alt='' />
             </div>
             <div>
                 <ul className='flex items-center gap-10'>

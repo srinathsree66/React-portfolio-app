@@ -1,13 +1,13 @@
 import React from 'react';
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import {
-    FaTwitter,
+    FaAngular,
+    FaGithub,
     FaLinkedinIn,
     FaReact,
-    FaInstagram,
-    FaAngular,
+    FaTwitter,
 } from 'react-icons/fa';
-import { SiTailwindcss, SiFigma, SiNextdotjs } from 'react-icons/si';
+import { SiFigma, SiTailwindcss } from 'react-icons/si';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
 const Stackinfo = () => {
     const [text] = useTypewriter({
@@ -51,10 +51,24 @@ const Stackinfo = () => {
                     </h2>
                     <div className='flex gap-4'>
                         <span className='bannerIcon'>
-                            <FaInstagram />
+                            <a
+                                href='https://github.com/srinathsree66'
+                                target='_blank'
+                                className='bannerIcon'
+                                rel='noreferrer'
+                            >
+                                <FaGithub />
+                            </a>
                         </span>
                         <span className='bannerIcon'>
-                            <FaTwitter />
+                            <a
+                                className='bannerIcon'
+                                href='https://twitter.com/Srinath799'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaTwitter />
+                            </a>
                         </span>
                         <span className='bannerIcon'>
                             <FaLinkedinIn />

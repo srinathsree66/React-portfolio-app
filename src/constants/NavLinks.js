@@ -19,11 +19,7 @@ export const navLinks = [
         title: 'Resume',
         link: 'resume',
     },
-    {
-        _id: 5,
-        title: 'Testimonial',
-        link: 'testimonial',
-    },
+
     {
         _id: 6,
         title: 'Contact',
